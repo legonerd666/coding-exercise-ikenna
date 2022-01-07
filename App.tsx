@@ -19,9 +19,9 @@ export default function App() {
   const [answer1, setanswer1] = useState('Folgen');
   const [answer2, setanswer2] = useState('Schaf');
   const [answer3, setanswer3] = useState('Bereiden');
-  const [answer4, setanswer4] = useState('Hause');
+  const [answer4, setanswer4] = useState('Haus');
   
-  const [correctAnswer, setCorrectAnswer] = useState('Hause');
+  const [correctAnswer, setCorrectAnswer] = useState('Haus');
 
   function setLesson() {
 
@@ -33,13 +33,13 @@ export default function App() {
       setNLSentencePT2(' is small.');
   
       setTLSentencePT1('Das ');
-      setCorrectAnswer('Hause');
+      setCorrectAnswer('Haus');
       setTLSentencePT2(' ist klein.');
   
       setanswer1('Folgen');
       setanswer2('Schaf');
       setanswer3('Bereiden');
-      setanswer4('Hause');
+      setanswer4('Haus');
     }
     else if (lessonNumber === 2) {
       setNLSentencePT1('The ');
